@@ -12,29 +12,28 @@
   <link rel="canonical" href="https://starry-curry-30.github.io/oasis-project/">
   <meta name="robots" content="index, follow">
   <meta property="og:url" content="https://starry-curry-30.github.io/oasis-project/">
-  <meta property="og:image" content="https://starry-curry-30.github.io/oasis-project/assets/oasis-logo.png">
+  <meta property="og:image" content="https://starry-curry-30.github.io/oasis-project/assets/oasis-logo.png?v=20261021-hd">
   <link rel="sitemap" type="application/xml" href="sitemap.xml">
-  <link rel="icon" href="assets/oasis-logo.png" type="image/png">
+  <link rel="icon" href="assets/oasis-logo.png?v=20261021-hd" type="image/png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="theme.css?v=20261021-clean">
 </head>
 <body>
   <a class="skip-link" href="#overview">Skip to content</a>
   <header class="site-header">
     <nav class="nav-shell" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="OASIS home"><img src="assets/oasis-logo.png" alt="OASIS" width="1007" height="507"></a>
+      <a class="brand" href="#top" aria-label="OASIS home"><img src="assets/oasis-logo.png?v=20261021-hd" alt="OASIS" width="1766" height="891"></a>
       <div class="nav-links"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#results">Results</a><a href="#citation">Citation</a></div>
     </nav>
   </header>
   <main id="top">
     <section class="hero container" aria-labelledby="paper-title">
       <p class="venue">ACM Multimedia 2026 <span aria-hidden="true">·</span> Oral</p>
-      <h1 id="paper-title"><img class="hero-logo" src="assets/oasis-logo.png" alt="OASIS" width="1007" height="507"><span class="full-title">Online Anchor-centric Scene Inference System<br class="desktop-break"> for Open-Vocabulary Retrieval and Navigation<br class="desktop-break"> in Dynamic Environments</span></h1>
+      <h1 id="paper-title"><img class="hero-logo" src="assets/oasis-logo.png?v=20261021-hd" alt="OASIS" width="1766" height="891"><span class="full-title">Online Anchor-centric Scene Inference System<br class="desktop-break"> for Open-Vocabulary Retrieval and Navigation<br class="desktop-break"> in Dynamic Environments</span></h1>
       <div class="authors" aria-label="Authors">
-        <span data-author="0">Kaiyao Liao<sup>1</sup></span><span data-author="1">Qingfeng Li<sup>1</sup></span><span data-author="2">Chen Chen<sup>2</sup></span><span data-author="3">Xiaoze Wu<sup>1</sup></span><span data-author="4">Qing Sun<sup>2</sup></span><span data-author="5">Jianwei Niu<sup>1,*</sup></span>
+        <span data-author="0">Kaiyao Liao<sup>1</sup></span><span data-author="1">Qingfeng Li<sup>1</sup></span><span data-author="2">Chen Chen<sup>2</sup></span><span data-author="3">Xiaoze Wu<sup>1</sup></span><span data-author="4">Qing Sun<sup>2</sup></span><span data-author="5" title="Corresponding author">Jianwei Niu<sup>1,*</sup></span>
       </div>
       <p class="affiliations"><span><sup>1</sup> Beihang University</span><span><sup>2</sup> Hangzhou Innovation Institute of Beihang University</span></p>
-      <p class="corresponding">* Corresponding author</p>
       <div class="resource-links" aria-label="Paper resources">
         <a class="resource-button primary" data-resource="paper" href="assets/OASIS-paper.pdf" target="_blank" rel="noopener">Paper <span>PDF ↗</span></a>
         <a class="resource-button" data-resource="code" href="https://github.com/starry-curry-30/OASIS" target="_blank" rel="noopener noreferrer">Code <span>↗</span></a>
@@ -43,33 +42,26 @@
         <a class="resource-button extra-resource" data-resource="supplement" hidden>Supplement <span>↗</span></a>
       </div>
     </section>
-
     <section class="abstract-section" id="overview" aria-labelledby="abstract-title">
       <div class="reading-width">
-        <p class="section-index">Overview</p><h2 id="abstract-title">Abstract</h2>
+        <h2 id="abstract-title">Abstract</h2>
         <p>Reliable robotic mapping in dynamic real-world environments is essential for embodied intelligence and long-term autonomy. Existing methods face a trade-off: lightweight online mapping captures limited semantic context, while dense mapping provides richer semantics at higher computational cost and can introduce visual distractors. Both struggle when objects move.</p>
         <p>We introduce <strong>OASIS</strong>, an Online Anchor-centric Scene Inference System for online mapping, complex open-vocabulary retrieval, and navigation in dynamic environments. Inspired by the stable structure of indoor scenes, OASIS organizes multimodal memory around semantic anchors such as beds, tables and sofas. An LLM proposes relevant anchors, and a VLM verifies representative views on demand. When a target is missing from its remembered location, transient observations collected during navigation help the robot find it again. Experiments in simulation and a real-world household setup demonstrate improved retrieval and navigation, including relocation after scene changes.</p>
       </div>
     </section>
-
     <section class="teaser-section container" aria-label="OASIS overview illustration">
       <figure class="hero-figure">
         <button class="figure-button" data-enlarge="assets/teaser.png" aria-label="Enlarge the OASIS overview illustration"><img class="teaser" src="assets/teaser.png" width="4326" height="905" alt="OASIS organizes the scene around stable anchors, filters relevant regions with language reasoning, and verifies the target from visual evidence." fetchpriority="high"></button>
-        <figcaption>Anchor-centric memory connects language, visual evidence and action.</figcaption>
       </figure>
-      <p class="teaser-insight"><strong>Stable anchors. Rich visual context. A changing world.</strong><br>OASIS remembers useful views around stable furniture and retrieves the evidence a task needs.</p>
     </section>
-
     <section class="video-section container" id="video" aria-labelledby="video-title">
-      <div class="section-heading"><p class="section-index">System demonstration</p><h2 id="video-title">OASIS in action</h2><p class="section-intro">Open-vocabulary retrieval and navigation in a changing environment.</p></div>
+      <div class="section-heading"><h2 id="video-title">OASIS in action</h2></div>
       <div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/tATBsrzlUmQ?rel=0" title="OASIS: Online Anchor-centric Scene Inference System — project video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-      <p class="video-caption">OASIS system demonstration. <a data-resource="video" href="https://youtu.be/tATBsrzlUmQ" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
     </section>
-
     <section class="section method-section" id="method" aria-labelledby="method-title">
       <div class="container">
-        <div class="section-heading"><p class="section-index">The approach</p><h2 id="method-title">A scene memory built around anchors</h2><p class="section-intro">OASIS retains informative views and links them to stable 3D objects.<br class="desktop-break"> The same memory supports reasoning, verification and navigation.</p></div>
-        <figure class="wide-figure"><button class="figure-button" data-enlarge="assets/pipeline.png" aria-label="Enlarge the OASIS system architecture"><img src="assets/pipeline.png" width="2527" height="1181" alt="Two parallel streams curate episodic visual memory and maintain semantic object instances. Their association forms the OASIS graph for retrieval, verification and navigation." loading="lazy"></button><figcaption>System overview. Online semantic mapping and episodic memory curation build a shared multimodal graph.</figcaption></figure>
+        <div class="section-heading"><h2 id="method-title">A scene memory built around anchors</h2></div>
+        <figure class="wide-figure"><button class="figure-button" data-enlarge="assets/pipeline.png" aria-label="Enlarge the OASIS system architecture"><img src="assets/pipeline.png" width="2527" height="1181" alt="Two parallel streams curate episodic visual memory and maintain semantic object instances. Their association forms the OASIS graph for retrieval, verification and navigation." loading="lazy"></button></figure>
         <div class="method-steps">
           <div><span class="step-number">01</span><h3>Curate the memory</h3><p>Score frames using global scene richness and local anchor quality. Joint spatial and visual clustering retains informative representative views.</p></div>
           <div><span class="step-number">02</span><h3>Retrieve with evidence</h3><p>The LLM proposes likely anchors. The VLM checks their images for attributes and relations. Class filtering and CLIP matching identify the final 3D instance.</p></div>
@@ -77,31 +69,27 @@
         </div>
       </div>
     </section>
-
     <section class="section container" aria-labelledby="dynamic-title">
       <div class="relocation-layout">
-        <div class="relocation-copy"><p class="section-index">When the scene changes</p><h2 id="dynamic-title">The old location<br>is only a starting point.</h2><p>The <strong>Transient Visual Buffer</strong> preserves potential sightings of moved objects during navigation. Each observation links an object crop to its full contextual frame and camera pose.</p><ol class="recovery-steps"><li><strong>Check the remembered location.</strong><span>Compare the current view with visual memory.</span></li><li><strong>Search recent observations.</strong><span>CLIP ranks candidate crops, and a VLM verifies their full frames.</span></li><li><strong>Reason about another anchor.</strong><span>If the buffer has no match, the LLM proposes a plausible place to check.</span></li></ol></div>
-        <figure class="relocation-figure"><button class="figure-button" data-enlarge="assets/tvb.png" aria-label="Enlarge the transient visual buffer example"><img src="assets/tvb.png" width="1545" height="1629" alt="A robot discovers that a red plate is missing from its remembered position, searches transient observations, and verifies the plate at a new location." loading="lazy"></button><figcaption>Recent visual evidence helps recover a displaced target.</figcaption></figure>
+        <div class="relocation-copy"><h2 id="dynamic-title">The old location<br>is only a starting point.</h2><p>The <strong>Transient Visual Buffer</strong> preserves potential sightings of moved objects during navigation. Each observation links an object crop to its full contextual frame and camera pose.</p><ol class="recovery-steps"><li><strong>Check the remembered location.</strong><span>Compare the current view with visual memory.</span></li><li><strong>Search recent observations.</strong><span>CLIP ranks candidate crops, and a VLM verifies their full frames.</span></li><li><strong>Reason about another anchor.</strong><span>If the buffer has no match, the LLM proposes a plausible place to check.</span></li></ol></div>
+        <figure class="relocation-figure"><button class="figure-button" data-enlarge="assets/tvb.png" aria-label="Enlarge the transient visual buffer example"><img src="assets/tvb.png" width="1545" height="1629" alt="A robot discovers that a red plate is missing from its remembered position, searches transient observations, and verifies the plate at a new location." loading="lazy"></button></figure>
       </div>
     </section>
-
     <section class="section results-section" id="results" aria-labelledby="results-title">
       <div class="container">
-        <div class="section-heading"><p class="section-index">Experimental results</p><h2 id="results-title">From retrieval to closed-loop navigation</h2><p class="section-intro">Evaluated on Replica, ScanNet and HM3D,<br class="desktop-break"> with additional experiments on a physical robot.</p></div>
+        <div class="section-heading"><h2 id="results-title">From retrieval to closed-loop navigation</h2><p class="section-intro">Evaluated on Replica, ScanNet and HM3D,<br class="desktop-break"> with additional experiments on a physical robot.</p></div>
         <div class="result-highlights"><div><span class="result-number">44.0<span>%</span></span><h3>Spatial grounding</h3><p>Sr3D+ overall A@0.1<br>CORE-3D: 41.8%</p></div><div><span class="result-number">77.4<span>%</span></span><h3>Cross-anchor navigation</h3><p>HM3D success rate<br>DualMap: 60.3%</p></div><div><span class="result-number">76.7<span>%</span></span><h3>Real-world dynamic navigation</h3><p>Household success rate<br>DualMap: 56.7%</p></div></div>
-        <div class="result-detail"><div class="result-detail-heading"><div><h3>Navigation after scene changes</h3><p>HM3D average success rate (%)</p></div><span class="table-label">Paper · Table 4</span></div><div class="table-scroll"><table><caption class="sr-only">Navigation success rates on HM3D for static, within-anchor and cross-anchor scenes.</caption><thead><tr><th scope="col">Method</th><th scope="col">Static</th><th scope="col">Within an anchor</th><th scope="col">Across anchors</th></tr></thead><tbody><tr><th scope="row">DualMap</th><td>70.5</td><td>64.8</td><td>60.3</td></tr><tr class="ours"><th scope="row">OASIS</th><td>85.9</td><td>81.5</td><td>77.4</td></tr></tbody></table></div><p class="table-note">Success means stopping within 1 m of the queried object. Dynamic trials allow at most 3 attempts. Evaluated over 78 static, 54 within-anchor and 53 cross-anchor trials.</p></div>
-        <details class="additional-results"><summary>More retrieval results <span aria-hidden="true">+</span></summary><div class="additional-content"><div class="table-scroll"><table><caption>Selected retrieval comparisons. Each task uses its own metric.</caption><thead><tr><th scope="col">Task and benchmark</th><th scope="col">Metric</th><th scope="col">DualMap</th><th scope="col">OASIS</th></tr></thead><tbody><tr><th scope="row">Fine-grained objects · OpenLex3D</th><td>mAP</td><td>6.19</td><td class="best">6.58</td></tr><tr><th scope="row">Functional regions · HM3D</th><td>Top-5 success (%)</td><td>53.8</td><td class="best">57.7</td></tr><tr><th scope="row">Spatial relations · Sr3D+</th><td>A@0.25 (%)</td><td>21.6</td><td class="best">37.4</td></tr></tbody></table></div><p class="table-note">Source: paper Tables 1–3. Metrics from different tasks are not directly comparable.</p></div></details>
+        <div class="result-detail"><div class="result-detail-heading"><div><h3>Navigation after scene changes</h3><p>HM3D average success rate (%)</p></div></div><div class="table-scroll"><table><caption class="sr-only">Navigation success rates on HM3D for static, within-anchor and cross-anchor scenes.</caption><thead><tr><th scope="col">Method</th><th scope="col">Static</th><th scope="col">Within an anchor</th><th scope="col">Across anchors</th></tr></thead><tbody><tr><th scope="row">DualMap</th><td>70.5</td><td>64.8</td><td>60.3</td></tr><tr class="ours"><th scope="row">OASIS</th><td>85.9</td><td>81.5</td><td>77.4</td></tr></tbody></table></div><p class="table-note">Success: stopping within 1 m of the target; up to 3 attempts in dynamic scenes. See paper Table 4 for trial counts.</p></div>
+        <details class="additional-results"><summary>More retrieval results <span aria-hidden="true">+</span></summary><div class="additional-content"><div class="table-scroll"><table><caption>Selected retrieval comparisons. Each task uses its own metric.</caption><thead><tr><th scope="col">Task and benchmark</th><th scope="col">Metric</th><th scope="col">DualMap</th><th scope="col">OASIS</th></tr></thead><tbody><tr><th scope="row">Fine-grained objects · OpenLex3D</th><td>mAP</td><td>6.19</td><td class="best">6.58</td></tr><tr><th scope="row">Functional regions · HM3D</th><td>Top-5 success (%)</td><td>53.8</td><td class="best">57.7</td></tr><tr><th scope="row">Spatial relations · Sr3D+</th><td>A@0.25 (%)</td><td>21.6</td><td class="best">37.4</td></tr></tbody></table></div><p class="table-note">Paper Tables 1–3. Each task uses its own metric.</p></div></details>
       </div>
     </section>
-
     <section class="section container realworld-section" aria-labelledby="realworld-title">
-      <div class="section-heading"><p class="section-index">Beyond simulation</p><h2 id="realworld-title">A real household environment</h2><p class="section-intro">A bedroom, living room and kitchen with 13 semantic anchors.<br class="desktop-break"> Thirty static and thirty dynamic trials test the complete system.</p></div>
-      <figure class="environment-figure"><button class="figure-button" data-enlarge="assets/real.png" aria-label="Enlarge the real-world test environment"><img src="assets/real.png" width="2375" height="1509" alt="Photos and floor plan of the three-room test setup, with furniture anchors and visually similar objects distributed across the bedroom, living room and kitchen." loading="lazy"></button><figcaption>The physical test environment includes similar objects with different colors, shapes and states.</figcaption></figure>
+      <div class="section-heading"><h2 id="realworld-title">A real household environment</h2><p class="section-intro">A bedroom, living room and kitchen with 13 semantic anchors.<br class="desktop-break"> Thirty static and thirty dynamic trials test the complete system.</p></div>
+      <figure class="environment-figure"><button class="figure-button" data-enlarge="assets/real.png" aria-label="Enlarge the real-world test environment"><img src="assets/real.png" width="2375" height="1509" alt="Photos and floor plan of the three-room test setup, with furniture anchors and visually similar objects distributed across the bedroom, living room and kitchen." loading="lazy"></button></figure>
       <div class="realworld-summary"><p><strong>86.7%</strong> static success</p><p><strong>76.7%</strong> dynamic success</p><p><strong>1.4</strong> average dynamic relocation attempts</p></div>
     </section>
-
     <section class="section citation-section" id="citation" aria-labelledby="citation-title">
-      <div class="reading-width citation-width"><div class="citation-heading"><div><p class="section-index">Reference</p><h2 id="citation-title">BibTeX</h2></div><button class="copy-button" id="copy-citation" type="button">Copy citation <span aria-hidden="true">⧉</span></button></div><pre><code id="bibtex">@inproceedings{liao2026oasis,
+      <div class="reading-width citation-width"><div class="citation-heading"><div><h2 id="citation-title">BibTeX</h2></div><button class="copy-button" id="copy-citation" type="button">Copy citation <span aria-hidden="true">⧉</span></button></div><pre><code id="bibtex">@inproceedings{liao2026oasis,
   title     = {OASIS: Online Anchor-centric Scene Inference System
                for Open-Vocabulary Retrieval and Navigation
                in Dynamic Environments},
@@ -114,7 +102,7 @@
 }</code></pre><p id="copy-status" class="copy-status" aria-live="polite"></p></div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><div><a class="brand" href="#top" aria-label="OASIS home"><img src="assets/oasis-logo.png" alt="OASIS" width="1007" height="507"></a><p>Beihang University<br>ACM Multimedia 2026</p></div><p>Online Anchor-centric Scene Inference System<br><a href="#citation">Cite this work</a> <span aria-hidden="true">·</span> <a data-resource="paper" href="assets/OASIS-paper.pdf" target="_blank" rel="noopener">Read the paper ↗</a></p></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#top" aria-label="OASIS home"><img src="assets/oasis-logo.png?v=20261021-hd" alt="OASIS" width="1766" height="891"></a><p>ACM Multimedia 2026 · Beihang University</p></div></footer>
   <dialog id="figure-dialog" aria-label="Enlarged research figure"><div class="dialog-toolbar"><span id="figure-dialog-title">Research figure</span><button id="close-figure" aria-label="Close enlarged figure">Close ×</button></div><img id="enlarged-figure" alt=""></dialog>
   <script src="site-config.js"></script><script src="script.js"></script>
 </body>
