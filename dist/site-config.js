@@ -8,7 +8,7 @@ window.OASIS_CONFIG = {
     arxiv: "",
     supplement: ""
   },
-  codePrivate: true,
+  codePrivate: false,
   // 作者个人主页链接，顺序与论文作者一致。不填时显示普通姓名。
   authorUrls: ["", "", "", "", "", ""]
 };

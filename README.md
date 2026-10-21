@@ -2,7 +2,7 @@
 
 Project page for **OASIS: Online Anchor-centric Scene Inference System for Open-Vocabulary Retrieval and Navigation in Dynamic Environments**, ACM Multimedia 2026.
 
-- Code: https://github.com/starry-curry-30/OASIS (currently private)
+- Code: https://github.com/starry-curry-30/OASIS
 - Video: https://youtu.be/tATBsrzlUmQ
 - Paper: included in `dist/assets/OASIS-paper.pdf`
 
