@@ -4,7 +4,7 @@ Project page for **OASIS: Online Anchor-centric Scene Inference System for Open-
 
 - Code: https://github.com/starry-curry-30/OASIS
 - Video: https://youtu.be/tATBsrzlUmQ
-- Paper: included in `dist/assets/OASIS-paper.pdf`
+- Paper: https://arxiv.org/abs/2610.30589
 
 ## Website source
 

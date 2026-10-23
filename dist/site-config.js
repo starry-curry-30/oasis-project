@@ -2,7 +2,7 @@
    本页采用 Abstract + 静态论文图，YouTube 视频位于总览图之后。 */
 window.OASIS_CONFIG = {
   links: {
-    paper: "assets/OASIS-paper.pdf",
+    paper: "https://arxiv.org/abs/2610.30589",
     code: "https://github.com/starry-curry-30/OASIS",
     video: "https://youtu.be/tATBsrzlUmQ",
     arxiv: "",
